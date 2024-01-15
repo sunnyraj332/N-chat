@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-block{
+    display: flex; flex: 1;
+    background-color: #bc4f4f;
+}
+.left-container{
+    width: 15%; 
+    background-color: #fff;
+}
+
+.middle-container{
+    width: 70%;
+}
+.right-container{
+    width: 15%;
+     background-color: #fff;
+}

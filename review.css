@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family:'Roboto Slab', serif;
+    background:#333;
+    position: relative;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    padding: 0 4%;
+
+}
+.brand-logo{
+    height: 120px;
+}
+
+.nav-links{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;      
+    font-size: 16px;
+
+}
+.nav-items a{
+    text-decoration: none;
+    margin-left: 50px;
+    text-transform: capitalize;
+    color: #fff;
+    opacity: 0.9;
+    gap: 5rem;
+}
+
+.exit-container
+  {
+    display: block;
+    margin: auto;
+    margin-left: 450px;
+  }
+ 
+  .ext-btn{
+    background-color: #1f80c0 ;
+    height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 10px,10px;
+    cursor: pointer;
+  }
+  
+ .search-box:focus{
+    width: 400px;
+    border-color: #1f80c0;
+ }
+ .sub-btn{
+    background-color: #1f80c0 ;
+    height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 10px,10px;
+ }
+ 
+ .sub-btn:hover{
+    cursor: pointer;
+    transform:scale(1,1) ;
+ 
+ }
+ .login-btn{
+    color: #fff;
+    opacity: 0.9;
+ text-transform: uppercase;
+ font-size: 15px;
+ font-weight: 700;
+ text-decoration: none; 
+ margin-left: 40px;  
+ }
+
+ .carousel-container{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    padding: 20px 0;
+    overflow-x: hidden;
+    margin-top: 110px;
+ }
+ .carousel{
+    display: flex;
+    width:92%;
+    position: relative;
+    margin: auto;
+    height: 100%;
+    background: #000;
+ }
+ .slider{
+    flex: 0 0 auto;
+    margin-right: 30px;
+    position: relative;
+    background: rgb(0,0,0,0.5);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    left: 0;
+    overflow: hidden;
+ }
+ .slider img{
+    width: 70%;
+    min-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+ }
+ .slide-content{
+    position: absolute;
+    height: 50px;
+    width: 25%;
+    z-index: 2;
+    background: linear-gradient(to right,#030b17 80%,#0c111b00);
+    color: #fff;
+ }
+ 
+ .sport-title{
+    padding-left: 50px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    }
+    .sport-des{
+       width: 80%;
+       padding-left: 50px;
+       margin-top: 30px;
+       opacity: 0.8;
+       font-weight: bold;
+       font-size: 20px;
+    }
+    .image-content{
+        width: auto;
+        height: 500px;
+        margin: left 500px;;
+    } 
+    
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #reviews-container {
+        margin-top: 20px;
+    }
+
+    .review {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .footer{
+
+        background-color: black;
+        
+     }
+     
+     .footer .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+     }
+     
+     .footer .box-container .box h3{
+        font-size: 1.2rem;
+        color: white;
+        padding: 10px;
+        text-align: center;
+     }
+     
+     .footer .box-container .box p{
+        font-size:1.2rem;
+        color: white;
+        padding: bottom 10px;;
+     }
+     
+     .footer .box-container .box a{
+        font-size: 14px;
+        color: white;
+        padding: 2px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+     }
+     
+     .footer .box-container .box a:hover{
+        color: burlywood;
+     }
+     
+     
+     .footer .box-container .box a i{
+        padding-right: 5px;
+        color: white;
+     }
